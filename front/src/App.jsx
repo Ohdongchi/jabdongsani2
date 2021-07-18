@@ -63,12 +63,12 @@ const App = ()=> {
     console.log(userProvider);
     return (
         <>
-            <header>
+            <div>
                 <div className="header-logo">
                     <Link to='/'><h2>React 초보 아저씨</h2></Link>
                 </div>
                 <Menu userProvider={userProvider}/>
-            </header>
+            </div>
             <div>
                 <div className="content">
                     <Switch>
